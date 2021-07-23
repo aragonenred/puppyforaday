@@ -40,8 +40,8 @@ header{
     padding: 3px;
     background-color: var(--bs-pink);
 }
-h1{
-    
+h3{
+   margin: 10px 0; 
 }
 .imagen{
     margin: 0 auto;
