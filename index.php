@@ -33,7 +33,7 @@
     <main>
         <h1>A puppy for each day</h1>
         <div class='imagen'>
-            <img src="<?php echo $dogImg->{'message'}; ?>" alt="">
+            <img id='img' src="<?php echo $dogImg->{'message'}; ?>" alt="">
         </div>
         <h3><?php echo $breed; ?></h3>
     </main>

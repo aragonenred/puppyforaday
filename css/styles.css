@@ -30,7 +30,7 @@ body{
     font-family: var(--principal);
 }
 main{
-    margin: 2px;
+    margin: 5px;
     text-align: center;
 }
 img{
