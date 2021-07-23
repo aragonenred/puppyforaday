@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(){
     
     const img = document.querySelector('#img');
-
+    const title = document.querySelector('#title');
     var breed = getBreed();
-    var url ;
     img.setAttribute('src', getImg(breed));
+    title.innerHTML = breed;
+
  
 
     function getBreed(){
@@ -27,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function(){
         return br;
     }
 
-
     function getImg(br){
         var url;
         const xhr = new XMLHttpRequest;
@@ -43,7 +43,5 @@ document.addEventListener('DOMContentLoaded', function(){
         return url;
         
     }
-
-
 
 });
